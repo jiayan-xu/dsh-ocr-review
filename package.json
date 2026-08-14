@@ -1,0 +1,30 @@
+{
+  "name": "@dsh-external/dsh-ocr-review",
+  "version": "0.1.0",
+  "description": "Local OpenCodeReview (ocr) gate for dsh: ocr_review tool runs AI code review on a workspace/branch diff via the managed node install, returns structured findings and optional gate failure.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml"
+  ],
+  "license": "MIT",
+  "engines": {
+    "dsh": ">=0.0.1"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-tools": "^0.1.0-rc.6"
+  },
+  "peerDependencies": {
+    "@deepseek-ai/cordis": "^4.0.1-rc.4"
+  }
+}
