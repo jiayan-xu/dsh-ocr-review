@@ -1,4 +1,4 @@
-# dsh-ocr-review bundle patch — local OpenCodeReview gate for the web profile.
+﻿# dsh-ocr-review bundle patch — local OpenCodeReview gate for the web profile.
 # Registers ocr_review / ocr_llm_test tools (managed-node ocr.js, opencode-zen).
 - insert:
     - id: dsh-ocr-review

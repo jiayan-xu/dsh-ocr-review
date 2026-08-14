@@ -1,4 +1,4 @@
-{
+﻿{
   "name": "@dsh-external/dsh-ocr-review",
   "version": "0.1.0",
   "description": "Local OpenCodeReview (ocr) gate for dsh: ocr_review tool runs AI code review on a workspace/branch diff via the managed node install, returns structured findings and optional gate failure.",
